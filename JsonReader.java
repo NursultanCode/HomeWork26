@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class JsonReader {
+
     private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public static Product[] readProducts(){
